@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Premium Florist By Toma&Zabin</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<!-- Navigation Bar -->
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="projects.html">Projects</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+<!-- Hero Section (Large Banner) -->
+<section class="hero">
+    <img src="images/hero-banner.jpg" alt="Premium Flowers">
+    <div class="hero-text">
+        <h1>Welcome to Premium Florist</h1>
+        <p>Order the finest flowers for any occasion</p>
+    </div>
+</section>
+
+<!-- Featured Flowers Section -->
+<section class="flowers">
+    <h2>Featured Flowers</h2>
+    <div class="flower-grid">
+        <!-- Flower 1 -->
+        <div class="flower">
+            <img src="images/flower1.jpg" alt="Rose">
+            <h3>Rose</h3>
+            <p>$25.00</p>
+            <button class="order-btn">Order Now</button>
+        </div>
+        <!-- Flower 2 -->
+        <div class="flower">
+            <img src="images/flower2.jpg" alt="Tulip">
+            <h3>Tulip</h3>
+            <p>$15.00</p>
+            <button class="order-btn">Order Now</button>
+        </div>
+        <!-- Flower 3 -->
+        <div class="flower">
+            <img src="images/flower3.jpg" alt="Lily">
+            <h3>Lily</h3>
+            <p>$30.00</p>
+            <button class="order-btn">Order Now</button>
+        </div>
+        <!-- Red Rose -->
+        <div class="flower">
+            <img src="images/redrose.jpg" alt="redrose">
+            <h3>Red Rose</h3>
+            <p>$35.00</p>
+            <button class="order-btn">Order Now</button>
+        </div>
+        <!-- Daffodil -->
+        <div class="flower">
+            <img src="images/daffodil.jpg" alt="Daffodil">
+            <h3>Daffodil</h3>
+            <p>$20.00</p>
+            <button class="order-btn">Order Now</button>
+        </div>
+        <!-- Touch of Honey Anemone Bouquet -->
+        <div class="flower">
+            <img src="images/Touch of Honey Anemone Bouquet.jpg" alt="Touch of Honey Anemone Bouquet">
+            <h3>Touch of Honey Anemone Bouquet</h3>
+            <p>$85.00</p>
+            <button class="order-btn">Order Now</button>
+        </div>
+        <!-- Lucky Lily Bouquet -->
+        <div class="flower">
+            <img src="images/Lucky Lily Bouquet.jpg" alt="Lucky Lily Bouquet">
+            <h3>Lucky Lily Bouquet</h3>
+            <p>$65.00</p>
+            <button class="order-btn">Order Now</button>
+        </div>
+        <!-- Best Bunch Peony Bouquet -->
+        <div class="flower">
+            <img src="images/Best Bunch Peony Bouquet.jpg" alt="Best Bunch Peony Bouquet">
+            <h3>Best Bunch Peony Bouquet</h3>
+            <p>$112.00</p>
+            <button class="order-btn">Order Now</button>
+        </div>
+        <!-- The Dreamscape Bouquet -->
+        <div class="flower">
+            <img src="images/The Dreamscape Bouquet.jpg" alt="The Dreamscape Bouquet">
+            <h3>The Dreamscape Bouquet</h3>
+            <p>$65.00</p>
+            <button class="order-btn">Order Now</button>
+        </div>
+        <!-- Birthday Surprise Bouquet -->
+        <div class="flower">
+            <img src="images/Birthday Surprise Bouquet.jpg" alt="Birthday Surprise Bouquet">
+            <h3>Birthday Surprise Bouquet</h3>
+            <p>$65.00</p>
+            <button class="order-btn">Order Now</button>
+        </div>
+        <!-- Midnight Dreaming Bouquet -->
+        <div class="flower">
+            <img src="images/Midnight Dreaming Bouquet.jpg" alt="Midnight Dreaming Bouquet">
+            <h3>Midnight Dreaming Bouquet</h3>
+            <p>$180.00</p>
+            <button class="order-btn">Order Now</button>
+        </div>
+        <!-- Tranquil Moments Peace Lily Plant -->
+        <div class="flower">
+            <img src="images/Tranquil Moments Peace Lily Plant.jpg" alt="Tranquil Moments Peace Lily Plant">
+            <h3>Tranquil Moments Peace Lily Plant</h3>
+            <p>$70.00</p>
+            <button class="order-btn">Order Now</button>
+        </div>
+        <!-- Soothing Waters Bouquet -->
+        <div class="flower">
+            <img src="images/Soothing Waters Bouquet.jpg" alt="Soothing Waters Bouquet">
+            <h3>Soothing Waters Bouquet</h3>
+            <p>$85.00</p>
+            <button class="order-btn">Order Now</button>
+        </div>
+        <!-- Sweet As Can Be Bouquet -->
+        <div class="flower">
+            <img src="images/Sweet As Can Be Bouquet.jpg" alt="Sweet As Can Be Bouquet">
+            <h3>Sweet As Can Be Bouquet</h3>
+            <p>$65.00</p>
+            <button class="order-btn">Order Now</button>
+        </div>
+        <!-- Shades of Love Tulip Bulb Garden -->
+        <div class="flower">
+            <img src="images/Shades of Love Tulip Bulb Garden.jpg" alt="Shades of Love Tulip Bulb Garden">
+            <h3>Shades of Love Tulip Bulb Garden</h3>
+            <p>$52.00</p>
+            <button class="order-btn">Order Now</button>
+        </div>
+    </div>
+</section>
+<!-- Order Form Section (Hidden by Default) -->
+<section id="order-form" class="order-form hidden">
+    <h2>Place Your Order</h2>
+    <form id="orderDetails">
+      <label for="customerName">Name:</label>
+      <input type="text" id="customerName" name="customerName" required>
+  
+      <label for="address">Delivery Address:</label>
+      <textarea id="address" name="address" required></textarea>
+  
+      <label for="flowerName">Flower Name:</label>
+      <input type="text" id="flowerName" name="flowerName" readonly>
+  
+      <label for="quantity">Quantity:</label>
+      <input type="number" id="quantity" name="quantity" value="1" min="1" required>
+
+      <label>
+        <input type="checkbox" id="addVase" name="addVase">
+        Add a Vase ($15 extra)
+      </label>
+      
+      <label for="totalPrice">Total Price:</label>
+      <input type="text" id="totalPrice" name="totalPrice" readonly>      
+  
+      <button type="submit">Confirm Order</button>
+    </form>
+  
+    <div id="confirmation" class="hidden">
+      <p>✅ Thank you! Your order has been placed for home delivery.</p>
+    </div>
+  </section>
+  
+
+<!-- Footer -->
+<footer>
+    <p>&copy; 2025 Premium Florist</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
